@@ -1,9 +1,9 @@
 {
   "metadataVersion": "0.1.0",
   "source": {
-    "hash": "0x2815cda919e2e5f20010c952631f69cafc60ef14856c470c88f8e83cfa0a805b",
+    "hash": "0x866754b972b5d98d08ae3e31ef7b1a9053d2b0d7387c0fc066e2a9f211990745",
     "language": "ink! 3.0.0-rc3",
-    "compiler": "rustc 1.53.0-nightly"
+    "compiler": "rustc 1.52.0-nightly"
   },
   "contract": {
     "name": "poolproxy",

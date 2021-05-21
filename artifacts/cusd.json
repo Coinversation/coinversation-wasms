@@ -1,9 +1,9 @@
 {
   "metadataVersion": "0.1.0",
   "source": {
-    "hash": "0x7dcd7bebc8d236e9e1e444366dc90858493ca60d02a7d005eb8fbb614ef3e87c",
+    "hash": "0xd0f866b94455a704878cf21f1ce8f4a7f0f2e34c7a79e5cfc46015b970f56453",
     "language": "ink! 3.0.0-rc3",
-    "compiler": "rustc 1.53.0-nightly"
+    "compiler": "rustc 1.52.0-nightly"
   },
   "contract": {
     "name": "cusd",
