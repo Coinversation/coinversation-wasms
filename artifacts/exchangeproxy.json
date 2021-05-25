@@ -1,9 +1,9 @@
 {
   "metadataVersion": "0.1.0",
   "source": {
-    "hash": "0x82bfc285bd6c44a52b5947bd3323fbef94e88f5d022bed1e4108b051133af3fd",
+    "hash": "0x00c0ec64de76903315149495b39c24456e5c86a02600eb2a14180b41c658946d",
     "language": "ink! 3.0.0-rc3",
-    "compiler": "rustc 1.52.0-nightly"
+    "compiler": "rustc 1.53.0-nightly"
   },
   "contract": {
     "name": "exchangeproxy",
