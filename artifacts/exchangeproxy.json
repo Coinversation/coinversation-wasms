@@ -1,7 +1,7 @@
 {
   "metadataVersion": "0.1.0",
   "source": {
-    "hash": "0x05c769ce6271fc463fbbc94b7367636644f6d2406a5b6d704574c22458ddecc9",
+    "hash": "0x55ded647ba17bc5984c4425db9a1b786b325cf8dc43cd7a437d990fe5f1bfaee",
     "language": "ink! 3.0.0-rc3",
     "compiler": "rustc 1.53.0-nightly"
   },
@@ -172,182 +172,6 @@
         "selector": "0xd411827c"
       },
       {
-        "args": [
-          {
-            "name": "swaps",
-            "type": {
-              "displayName": [
-                "Vec"
-              ],
-              "type": 5
-            }
-          },
-          {
-            "name": "token_out",
-            "type": {
-              "displayName": [
-                "AccountId"
-              ],
-              "type": 2
-            }
-          },
-          {
-            "name": "min_total_amount_out",
-            "type": {
-              "displayName": [
-                "u128"
-              ],
-              "type": 7
-            }
-          }
-        ],
-        "docs": [],
-        "mutates": true,
-        "name": [
-          "batch_dot_in_swap_exact_in"
-        ],
-        "payable": false,
-        "returnType": {
-          "displayName": [
-            "u128"
-          ],
-          "type": 7
-        },
-        "selector": "0x86e28da8"
-      },
-      {
-        "args": [
-          {
-            "name": "swaps",
-            "type": {
-              "displayName": [
-                "Vec"
-              ],
-              "type": 5
-            }
-          },
-          {
-            "name": "token_in",
-            "type": {
-              "displayName": [
-                "AccountId"
-              ],
-              "type": 2
-            }
-          },
-          {
-            "name": "total_amount_in",
-            "type": {
-              "displayName": [
-                "u128"
-              ],
-              "type": 7
-            }
-          },
-          {
-            "name": "min_total_amount_out",
-            "type": {
-              "displayName": [
-                "u128"
-              ],
-              "type": 7
-            }
-          }
-        ],
-        "docs": [],
-        "mutates": true,
-        "name": [
-          "batch_dot_out_swap_exact_in"
-        ],
-        "payable": false,
-        "returnType": {
-          "displayName": [
-            "u128"
-          ],
-          "type": 7
-        },
-        "selector": "0xd4b903b8"
-      },
-      {
-        "args": [
-          {
-            "name": "swaps",
-            "type": {
-              "displayName": [
-                "Vec"
-              ],
-              "type": 5
-            }
-          },
-          {
-            "name": "token_out",
-            "type": {
-              "displayName": [
-                "AccountId"
-              ],
-              "type": 2
-            }
-          }
-        ],
-        "docs": [],
-        "mutates": true,
-        "name": [
-          "batch_dot_in_swap_exact_out"
-        ],
-        "payable": false,
-        "returnType": {
-          "displayName": [
-            "u128"
-          ],
-          "type": 7
-        },
-        "selector": "0xaec7050c"
-      },
-      {
-        "args": [
-          {
-            "name": "swaps",
-            "type": {
-              "displayName": [
-                "Vec"
-              ],
-              "type": 5
-            }
-          },
-          {
-            "name": "token_in",
-            "type": {
-              "displayName": [
-                "AccountId"
-              ],
-              "type": 2
-            }
-          },
-          {
-            "name": "max_total_amount_in",
-            "type": {
-              "displayName": [
-                "u128"
-              ],
-              "type": 7
-            }
-          }
-        ],
-        "docs": [],
-        "mutates": true,
-        "name": [
-          "batch_dot_out_swap_exact_out"
-        ],
-        "payable": false,
-        "returnType": {
-          "displayName": [
-            "u128"
-          ],
-          "type": 7
-        },
-        "selector": "0x5ad86860"
-      },
-      {
         "args": [],
         "docs": [
           " Simply returns the current value of our `bool`."
@@ -364,6 +188,41 @@
           "type": 1
         },
         "selector": "0x2f865bd9"
+      },
+      {
+        "args": [
+          {
+            "name": "token",
+            "type": {
+              "displayName": [
+                "AccountId"
+              ],
+              "type": 2
+            }
+          },
+          {
+            "name": "owner",
+            "type": {
+              "displayName": [
+                "AccountId"
+              ],
+              "type": 2
+            }
+          }
+        ],
+        "docs": [],
+        "mutates": false,
+        "name": [
+          "balance_of"
+        ],
+        "payable": false,
+        "returnType": {
+          "displayName": [
+            "Balance"
+          ],
+          "type": 7
+        },
+        "selector": "0x0f755a56"
       }
     ]
   },
